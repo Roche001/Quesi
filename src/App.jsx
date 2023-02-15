@@ -1,7 +1,8 @@
 import React from "react";
+import Top from "./components/top/Top";
 
 const App = () => {
-  return <div>App</div>;
+  return <Top />;
 };
 
 export default App;
