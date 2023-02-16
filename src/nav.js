@@ -1,4 +1,4 @@
-export const nav = [
+export const bar = [
   { title: "Home", navLink: "/" },
   { title: "Beer", navLink: "/Beer" },
   { title: "Wine", navLink: "/Wine" },

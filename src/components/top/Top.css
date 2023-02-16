@@ -1,0 +1,28 @@
+.top {
+  width: 100vw;
+  height: 4.5rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #391b1b;
+  top: 0;
+}
+.top-icon {
+  position: absolute;
+  display: none;
+}
+.top-icon h4 {
+  color: #ffffff;
+}
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-one {
+  margin: 0.6rem;
+}
+.menu-one h3 {
+  color: #ffffff;
+}
