@@ -1,7 +1,6 @@
 import React from "react";
 import "./Top.css";
-import { MdAccountCircle } from "react-icons/md";
-import { FaShoppingCart } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 const Top = () => {
@@ -9,6 +8,11 @@ const Top = () => {
     <div className="top">
       <div className="logo">
         <img src="./assets/logo.png" alt="logo" />
+      </div>
+      <div className="top-icon">
+        <h4>
+          <GiHamburgerMenu />
+        </h4>
       </div>
     </div>
   );
