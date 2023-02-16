@@ -1,5 +1,5 @@
 import React from "react";
-import "./Promotion.css";
+import "./Promotions.css";
 
 const Promotions = () => {
   return <div>Promotions</div>;

@@ -1,19 +1,14 @@
 import React from "react";
 import "./Top.css";
-import { GiGrapes } from "react-icons/gi";
+import { MdAccountCircle } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Top = () => {
   return (
-    <div className="cork">
-      <div className="cork-photo">
-        <h4>
-          <GiGrapes />
-        </h4>
-      </div>
-      <div className="cork-text">
-        <h4>
-          Roche.<span>Liqour</span>
-        </h4>
+    <div className="top">
+      <div className="logo">
+        <img src="./assets/logo.png" alt="logo" />
       </div>
     </div>
   );
