@@ -1,0 +1,11 @@
+.cork {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cork-text h4 span {
+  color: #6c2828;
+}
