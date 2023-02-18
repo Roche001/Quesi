@@ -23,6 +23,52 @@
 .menu-one {
   margin: 0.6rem;
 }
-.menu-one h3 {
+.menu-one h5 {
   color: #eeeeee;
+  font-size: 1rem;
+}
+.nav-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .nav-elements {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+    background: #060604;
+    width: 100vw;
+    display: none;
+  }
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-icon {
+    display: block;
+  }
+  .side-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+    background: #060604;
+    width: 100vw;
+  }
 }
