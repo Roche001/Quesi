@@ -1,6 +1,5 @@
 .top {
   width: 100vw;
-  height: 4.5rem;
   position: fixed;
   display: flex;
   align-items: center;
@@ -38,37 +37,18 @@
   justify-content: center;
 }
 @media screen and (max-width: 600px) {
-  .navbar {
+  .top {
     position: fixed;
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
-  }
-  .nav-elements {
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 30vh;
-    background: #060604;
-    width: 100vw;
-    display: none;
-  }
-  .menu-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .top-icon {
-    display: block;
+    justify-content: space-around;
   }
   .side-bar {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    height: 30vh;
-    background: #060604;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
+    height: 40vh;
   }
 }
