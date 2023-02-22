@@ -40,8 +40,8 @@
   .top {
     position: fixed;
     display: flex;
-    align-items: flex-start;
     justify-content: space-around;
+    align-items: flex-start;
   }
   .side-bar {
     display: flex;
@@ -49,6 +49,5 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 40vh;
   }
 }
