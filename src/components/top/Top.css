@@ -1,38 +1,102 @@
-.top {
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 100vw;
   position: fixed;
+  background: #431d1d;
+  z-index: 1000;
+  box-shadow: 0px 2px #060604;
+}
+.logo {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background: #6a2525;
-  z-index: 1000;
-  box-shadow: 2px 7px 10px#060604;
+  justify-content: center;
 }
-.side-bar {
+.logo img:hover {
+  background: #bc6b05;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+.logo img {
+  border: 1px dotted #bc6b05;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.nav-elements {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .menu-one {
-  padding: 0.5rem;
+  padding-left: 0.8rem;
+  cursor: progress;
 }
-.menu-one h5 {
+.menu-one h6 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-family: "Lobster", cursive;
+  transition: 400ms ease-in-out;
+}
+.menu-one h6:hover {
+  color: #bc6b05;
+}
+.menu-one a {
   color: #ffffff;
-  font-size: 1rem;
+  text-decoration: none;
+}
+.menu-one a:hover {
+  color: #bc6b05;
 }
 .top-icon {
   display: none;
   cursor: pointer;
+  margin-top: 1.2rem;
 }
 .top-icon h4 {
   color: #ffffff;
 }
-@media screen and (max-width: 850px) {
-  .top {
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
     position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    background: #431d1d;
+  }
+  .nav-elements {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+    background: #431d1d;
+    width: 100vw;
+    display: none;
+  }
+  .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-icon {
+    display: block;
   }
   .side-bar {
     display: flex;
@@ -40,13 +104,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 30vh;
+    background: #431d1d;
     width: 100vw;
-  }
-  .menu-one {
-    padding: 0;
-  }
-  .top-icon {
-    display: block;
-    display: none;
   }
 }

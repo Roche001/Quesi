@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -13,27 +13,30 @@ const Top = () => {
     toggleMenu();
   };
   return (
-    <div className="top">
+    <div className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src="./assets/logo.png" alt="logo" />
+          <img src="././assets/fav.png" alt="logo" loading="lazy" />
         </Link>
       </div>
-      <div className="top-icon">
+
+      <div className="top-icon" onClick={toggleMenu}>
         <h4>
           <GiHamburgerMenu />
         </h4>
-      </div>{" "}
-      <div className="side-bar">
-        {bar.map((bar, index) => {
-          return (
-            <div key={index} className="menu-one">
-              <Link to={bar.navLink}>
-                <h5>{bar.title}</h5>
-              </Link>
-            </div>
-          );
-        })}
+      </div>
+      <div className={menuOpen ? "nav-elements" : "menu-items"}>
+        <div className="side-bar">
+          {bar.map((bar, index) => {
+            return (
+              <div key={index} className="menu-one">
+                <Link to={bar.navLink} onClick={handleClick}>
+                  <h5>{bar.title}</h5>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
