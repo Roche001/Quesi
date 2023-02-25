@@ -18,25 +18,35 @@
 }
 .menu-one h5 {
   color: #ffffff;
+  font-size: 1rem;
 }
 .top-icon {
   display: none;
+  cursor: pointer;
+}
+.top-icon h4 {
+  color: #ffffff;
 }
 @media screen and (max-width: 850px) {
   .top {
     position: fixed;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
   }
   .side-bar {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     height: 30vh;
     width: 100vw;
+    display: none;
   }
   .menu-one {
     padding: 0;
+  }
+  .top-icon {
+    display: block;
   }
 }
