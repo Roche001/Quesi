@@ -32,7 +32,7 @@
     position: fixed;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
   }
   .side-bar {
     display: flex;
@@ -41,12 +41,12 @@
     flex-direction: column;
     height: 30vh;
     width: 100vw;
-    display: none;
   }
   .menu-one {
     padding: 0;
   }
   .top-icon {
     display: block;
+    display: none;
   }
 }
