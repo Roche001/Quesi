@@ -1,110 +1,45 @@
 .navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  width: 100vw;
   position: fixed;
-  background: #431d1d;
-  z-index: 1000;
-  box-shadow: 0px 2px #060604;
+  background: #5a2727;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo img:hover {
-  background: #bc6b05;
-}
-.logo a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 4rem;
+  width: 4rem;
 }
 .logo img {
-  border: 1px dotted #bc6b05;
-  border-radius: 50%;
-  height: 100%;
   width: 100%;
-}
-.nav-elements {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.menu-one {
-  padding-left: 0.8rem;
-  cursor: progress;
-}
-.menu-one h6 {
-  font-weight: 400;
-  font-size: 1.25rem;
-  font-family: "Lobster", cursive;
-  transition: 400ms ease-in-out;
-}
-.menu-one h6:hover {
-  color: #bc6b05;
-}
-.menu-one a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.menu-one a:hover {
-  color: #bc6b05;
-}
-.top-icon {
-  display: none;
-  cursor: pointer;
-  margin-top: 1.2rem;
-}
-.top-icon h4 {
-  color: #ffffff;
-}
-.menu-items {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .side-bar {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 1.5rem;
+  justify-content: space-between;
 }
-@media screen and (max-width: 600px) {
+.menu-one {
+  margin: 0.5rem;
+}
+.menu-one h5 {
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: 400ms ease;
+}
+.top-icon {
+  display: none;
+}
+.top-icon h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 900px) {
   .navbar {
-    position: fixed;
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
-    background: #431d1d;
-  }
-  .nav-elements {
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 30vh;
-    background: #431d1d;
-    width: 100vw;
-    display: none;
-  }
-  .menu-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .top-icon {
-    display: block;
+    justify-content: space-around;
   }
   .side-bar {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    height: 30vh;
-    background: #431d1d;
-    width: 100vw;
   }
 }

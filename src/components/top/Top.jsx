@@ -25,18 +25,17 @@ const Top = () => {
           <GiHamburgerMenu />
         </h4>
       </div>
-      <div className={menuOpen ? "nav-elements" : "menu-items"}>
-        <div className="side-bar">
-          {bar.map((bar, index) => {
-            return (
-              <div key={index} className="menu-one">
-                <Link to={bar.navLink} onClick={handleClick}>
-                  <h5>{bar.title}</h5>
-                </Link>
-              </div>
-            );
-          })}
-        </div>
+
+      <div className="side-bar">
+        {bar.map((bar, index) => {
+          return (
+            <div key={index} className="menu-one">
+              <Link to={bar.navLink} onClick={handleClick}>
+                <h5>{bar.title}</h5>
+              </Link>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
