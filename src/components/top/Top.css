@@ -19,11 +19,16 @@
 }
 .menu-one {
   margin: 0.5rem;
+  text-decoration: none !important;
 }
 .menu-one h5 {
   color: #ffffff;
   font-size: 0.9rem;
   transition: 400ms ease;
+  text-decoration: none;
+}
+#menu-two {
+  text-decoration: none;
 }
 .top-icon {
   display: none;

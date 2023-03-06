@@ -30,7 +30,7 @@ const Top = () => {
         {bar.map((bar, index) => {
           return (
             <div key={index} className="menu-one">
-              <Link to={bar.navLink} onClick={handleClick}>
+              <Link to={bar.navLink} onClick={handleClick} id="menu-two">
                 <h5>{bar.title}</h5>
               </Link>
             </div>
