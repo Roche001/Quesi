@@ -38,6 +38,11 @@
   color: #ffffff;
   font-size: 1.2rem;
 }
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 900px) {
   .navbar {
     display: flex;
@@ -51,6 +56,14 @@
   }
   .top-icon {
     display: block;
-    margin-top: 2rem;
+    margin-top: 1rem;
+  }
+  .menu-items-one {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .menu-items {
+    display: none;
   }
 }
