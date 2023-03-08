@@ -52,41 +52,47 @@ const Footer = () => {
         <div className="footer-follow ">
           <div className="follow">
             <h5>Follow Us</h5>
-            {social.map((social, index) => {
-              return (
-                <div key={index}>
-                  <h5>{social.title}</h5>
-                </div>
-              );
-            })}
+            <div className="follow-social">
+              {social.map((social, index) => {
+                return (
+                  <div key={index}>
+                    <h5>{social.title}</h5>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div className="download">
-            <h5>Download the App</h5>
-            {down.map((down, index) => {
-              return (
-                <div key={index}>
-                  <Link to={down.titleLink} target="_blank" rel="noreferrer">
-                    <h5>{down.title}</h5>
-                  </Link>
-                </div>
-              );
-            })}
+            <h5>Download Our App</h5>
+            <div className="download-social">
+              {down.map((down, index) => {
+                return (
+                  <div key={index}>
+                    <Link to={down.titleLink} target="_blank" rel="noreferrer">
+                      <h5>{down.title}</h5>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div className="payment">
             <h5>Payment Options</h5>
-            {pay.map((pay, index) => {
-              return (
-                <div key={index} className="images">
-                  <img src={pay.title} alt="payment option" loading="lazy" />
-                </div>
-              );
-            })}
+            <div className="images">
+              {pay.map((pay, index) => {
+                return (
+                  <div key={index} className="images-one">
+                    <img src={pay.title} alt="payment option" loading="lazy" />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
       <div className="footer-two">
         <h5> Terms and Conditions | Privacy Policy </h5>
-        <h5>© 2022 Goto Concept LLC All rights reserved. </h5>
+        <h5>© 2023 Roche.Liqour LLC All rights reserved. </h5>
         <p>
           {" "}
           <span>Alcoholic Drinks Control Act 2010:</span>Excessive alcohol
