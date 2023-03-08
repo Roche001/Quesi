@@ -23,7 +23,7 @@
 }
 .menu-one h5 {
   color: #ffffff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: 400ms ease;
   text-decoration: none;
 }
@@ -32,6 +32,7 @@
 }
 .top-icon {
   display: none;
+  cursor: pointer;
 }
 .top-icon h4 {
   color: #ffffff;
@@ -46,5 +47,10 @@
   .side-bar {
     display: flex;
     flex-direction: column;
+    width: 100vw;
+  }
+  .top-icon {
+    display: block;
+    margin-top: 2rem;
   }
 }
