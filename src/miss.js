@@ -8,3 +8,10 @@ export const lazy = [
   { title: "Beer Stores", titleLink: "/Beerstores" },
   { title: "Alcohol Delivery", titleLink: "/Alcoholdelivery" },
 ];
+export const help = [
+  { title: "In Store Pickup", titleLink: "/Storepick" },
+  { title: "FAQ", titleLink: "/FAQ" },
+  { title: "Contact Us", titleLink: "/Contactus" },
+  { title: "Request Product", titleLink: "/Request" },
+  { title: "Return & Refund", titleLink: "/Refund" },
+];

@@ -19,6 +19,7 @@ const Footer = () => {
             );
           })}
         </div>
+        <div className="footer-help"></div>
       </div>
     </div>
   );
