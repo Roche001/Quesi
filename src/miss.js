@@ -16,3 +16,8 @@ export const help = [
   { title: "Return & Refund", titleLink: "/Refund" },
   { title: "Join as Retailer", titleLink: "/Join" },
 ];
+export const account = [
+  { title: "Sign In", titleLink: "/Signin" },
+  { title: "Sign Up", titleLink: "/Singup" },
+  { title: "Forgot Password?", titleLink: "/Pass" },
+];
