@@ -14,3 +14,6 @@ body {
   font-family: "Signika Negative", sans-serif;
   background: rgb(245, 246, 240);
 }
+#about {
+  text-decoration: none;
+}

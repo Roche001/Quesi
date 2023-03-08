@@ -1,5 +1,5 @@
 .footer-container {
-  background: #5a2727;
+  background: #320a02;
   width: 100vw;
   color: #ffffff;
 }
@@ -44,17 +44,15 @@
 }
 .images-one {
   height: 1rem;
-  width: 1rem;
+  width: 1.5rem;
 }
 .images-one img {
   height: 100%;
   width: 100%;
-  margin: 0.1rem;
+  margin: 0.2rem;
   cursor: pointer;
 }
-#about {
-  text-decoration: none;
-}
+
 .footer-two {
   display: flex;
   flex-direction: column;
@@ -68,7 +66,12 @@
   font-size: 1rem;
   font-weight: 800;
 }
-
+.about h5 {
+  color: #ffffff;
+}
+.dark h5 {
+  color: #ffffff;
+}
 @media screen and (max-width: 600px) {
   .footer-one {
     width: 100vw;

@@ -29,9 +29,14 @@ export const account = [
 export const social = [
   {
     title: <RiFacebookFill />,
+    titleLink: "https://web.facebook.com/?_rdc=1&_rdr",
   },
-  { title: <IoLogoTwitter /> },
-  { title: <AiFillInstagram /> },
+  {
+    title: <IoLogoTwitter />,
+    titleLink:
+      "https://www.google.com/search?channel=fs&client=ubuntu&q=twitter+login",
+  },
+  { title: <AiFillInstagram />, titleLink: "https://www.instagram.com/" },
 ];
 export const down = [
   { title: <FcAndroidOs />, titleLink: "https://play.google.com/store/games" },

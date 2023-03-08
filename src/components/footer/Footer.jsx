@@ -55,8 +55,14 @@ const Footer = () => {
             <div className="follow-social">
               {social.map((social, index) => {
                 return (
-                  <div key={index}>
-                    <h5>{social.title}</h5>
+                  <div key={index} className="about">
+                    <Link
+                      to={social.titleLink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <h5>{social.title}</h5>
+                    </Link>
                   </div>
                 );
               })}
@@ -67,7 +73,7 @@ const Footer = () => {
             <div className="download-social">
               {down.map((down, index) => {
                 return (
-                  <div key={index}>
+                  <div key={index} className="dark">
                     <Link to={down.titleLink} target="_blank" rel="noreferrer">
                       <h5>{down.title}</h5>
                     </Link>
