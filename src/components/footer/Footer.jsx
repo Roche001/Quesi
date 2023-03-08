@@ -102,8 +102,8 @@ const Footer = () => {
         <p>
           {" "}
           <span>Alcoholic Drinks Control Act 2010:</span>Excessive alcohol
-          consumption is harmful to your health & These products are not for
-          sale to persons under the age of 18 years
+          consumption is harmful to your health. These products are not for sale
+          to persons under the age of 18 years
         </p>
       </div>
     </div>

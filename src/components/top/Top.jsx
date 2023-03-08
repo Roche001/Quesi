@@ -1,17 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Top.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-  const handleClick = () => {
-    toggleMenu();
-  };
   return (
     <div className="navbar">
       <div className="logo">
@@ -20,7 +13,7 @@ const Top = () => {
         </Link>
       </div>
 
-      <div className="top-icon" onClick={toggleMenu}>
+      <div className="top-icon">
         <h4>
           <GiHamburgerMenu />
         </h4>
@@ -30,7 +23,7 @@ const Top = () => {
         {bar.map((bar, index) => {
           return (
             <div key={index} className="menu-one">
-              <Link to={bar.navLink} onClick={handleClick} id="menu-two">
+              <Link to={bar.navLink} id="menu-two">
                 <h5>{bar.title}</h5>
               </Link>
             </div>
