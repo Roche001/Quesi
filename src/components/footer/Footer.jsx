@@ -11,45 +11,45 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-one container-fluid">
-        <div className="footer-about col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div className="footer-about">
           <h5>ABOUT</h5>
           {lazy.map((lazy, index) => {
             return (
               <div key={index}>
-                <Link to={lazy.titleLink}>
-                  <h5>{lazy.title}</h5>
+                <Link to={lazy.titleLink} id="about">
+                  <h6>{lazy.title}</h6>
                 </Link>
               </div>
             );
           })}
         </div>
-        <div className="footer-help col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div className="footer-help ">
           {" "}
           <h5>HELP</h5>
           {help.map((help, index) => {
             return (
               <div key={index}>
-                <Link to={help.titleLink}>
-                  <h5>{help.title}</h5>
+                <Link to={help.titleLink} id="about">
+                  <h6>{help.title}</h6>
                 </Link>
               </div>
             );
           })}
         </div>
-        <div className="footer-sign col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div className="footer-sign">
           {" "}
           <h5>My Account</h5>
           {account.map((account, index) => {
             return (
               <div key={index}>
-                <Link to={account.titleLink}>
-                  <h5>{account.title}</h5>
+                <Link to={account.titleLink} id="about">
+                  <h6>{account.title}</h6>
                 </Link>
               </div>
             );
           })}
         </div>
-        <div className="footer-follow col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div className="footer-follow ">
           <div className="follow">
             <h5>Follow Us</h5>
             {social.map((social, index) => {

@@ -3,3 +3,49 @@
   width: 100vw;
   color: #ffffff;
 }
+.footer-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer-about h6 {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.footer-help h6 {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.footer-sign h6 {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+}
+.follow-social {
+  display: flex;
+}
+#about {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-one {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
