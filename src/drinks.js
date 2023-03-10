@@ -61,3 +61,20 @@ export const homespirit = [
     titleicon: <TiLocationArrow />,
   },
 ];
+export const location = [
+  { title: "Kisumu", titleLink: "/Kisumu" },
+  {
+    title: "Mombasa",
+    titleLink: "/Mombasa",
+  },
+  { title: "Nairobi", titleLink: "/Nairobi" },
+  { title: "Nakuru", titleLink: "/Nakuru" },
+  { title: "Eldoret", titleLink: "/Eldoret" },
+  { title: "Homa-Bay", titleLink: "/Homa-Bay" },
+  { title: "Mbita", titleLink: "/Mbita" },
+  { title: "Kikuyu", titleLink: "/Kikuyu" },
+  { title: "Kiambu", titleLink: "/Kiambu" },
+  { title: "Thika", titleLink: "/Thika" },
+  { title: "Kilifi", titleLink: "/Kilifi" },
+  { title: "Kisii", titleLink: "/Kisii" },
+];

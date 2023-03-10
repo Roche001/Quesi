@@ -7,6 +7,7 @@ import { crates } from "../../drinks";
 import { homewine } from "../../drinks";
 import { homespirit } from "../../drinks";
 import { homeextras } from "../../drinks";
+import { location } from "../../drinks";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -132,6 +133,26 @@ const Home = () => {
         <div className="home-find-two">
           <img src="./assets/index.jpg" alt="liqour-store" />
         </div>
+      </div>
+      <div className="home-location">
+        <h3>Browse by Location</h3>
+        <p>
+          Here are a few places where you can either pick up or have your
+          favorite drinks delivered from nearby liquor stores.{" "}
+        </p>
+        <div className="location-one">
+          {" "}
+          {location.map((location, index) => {
+            return (
+              <div key={index}>
+                <Link to={location.titleLink} id="menu-two">
+                  <h5>{location.title}</h5>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+        <button>View all Locations</button>
       </div>
     </div>
   );

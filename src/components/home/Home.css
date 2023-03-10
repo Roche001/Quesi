@@ -72,7 +72,7 @@
   transition: 1s ease;
 }
 .home-category {
-  background: #e2d4d4;
+  background: #8d6e63;
   text-align: center;
   padding: 0.5rem;
 }
@@ -108,7 +108,12 @@ button {
   font-weight: 800;
   font-size: 1.2rem;
 }
-
+.home-find-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .home-find-two {
   margin: 0.5rem;
   height: 20.5rem;
@@ -118,6 +123,23 @@ button {
   height: 100%;
   width: 100%;
   border-radius: 1rem;
+}
+.home-location {
+  background: #8d6e63;
+  text-align: center;
+  color: #320a02;
+  padding: 1rem;
+}
+.location-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1rem;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location-one h5 {
+  color: #320a02;
 }
 @media screen and (max-width: 600px) {
   .fire {
@@ -149,6 +171,9 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: start;
+  }
+  .location-one {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 950px) {
