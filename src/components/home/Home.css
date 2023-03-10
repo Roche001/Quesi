@@ -39,8 +39,130 @@
   cursor: pointer;
   color: #320a02;
 }
+.home-drinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+.drinks-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.drinks-one h5 {
+  color: #320a02;
+}
+.drinks-one img {
+  height: 12rem;
+  border-radius: 0.5rem;
+}
+.rotate img {
+  transition: 1s ease;
+}
+
+.rotate img:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
+}
+.home-category {
+  background: #e2d4d4;
+  text-align: center;
+  padding: 0.5rem;
+}
+.home-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.home-beer,
+.home-wine,
+.homeextras,
+.homespirit {
+  margin: 1rem;
+}
+.home-beer h5,
+.home-wine h5,
+.homeextras h5,
+.homespirit h5 {
+  color: #320a02;
+}
+.home-find {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+}
+button {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background: #320a02;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.home-find-two {
+  margin: 0.5rem;
+  height: 20.5rem;
+  width: 40rem;
+}
+.home-find-two img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
 @media screen and (max-width: 600px) {
   .fire {
     width: 95vw;
   }
+  .home-drinks {
+    width: 98vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .drinks-one {
+    margin: 0.5rem;
+  }
+  .home-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .home-beer,
+  .home-wine,
+  .homeextras,
+  .homespirit {
+    text-align: start;
+    margin: 1rem;
+  }
+  .home-beer-div,
+  .homeextras-div,
+  .homespirit-div,
+  .home-wine-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+  }
 }
+@media screen and (min-width: 601px) and (max-width: 950px) {
+  .home-drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* @media screen and (min-width: 951px;) {
+  .home-drinks{
+
+  }
+} */
