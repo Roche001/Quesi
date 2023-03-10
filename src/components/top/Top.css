@@ -61,7 +61,17 @@
   .menu-items-one {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    background: #37474f;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    z-index: 9999;
+    height: 30vh;
+    position: absolute;
+    width: 10rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border: 1px solid #000000;
+    gap: 1rem;
   }
   .menu-items {
     display: none;
