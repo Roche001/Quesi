@@ -1,5 +1,9 @@
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), #020c1b),
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7),
+      rgb(79, 34, 34, 0.9)
+    ),
     url(../../images/Wood.jpeg);
   width: 100vw;
   height: 70vh;
@@ -21,4 +25,25 @@
   color: #ffffff;
   font-size: 2rem;
   font-size: 900;
+}
+.fire {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #ffffff;
+  width: 60%;
+  height: 3rem;
+  border-radius: 10rem;
+}
+.fire input {
+  width: 80%;
+}
+.fire h3 {
+  cursor: pointer;
+  color: #320a02;
+}
+@media screen and (max-width: 600px) {
+  .fire {
+    width: 95vw;
+  }
 }
