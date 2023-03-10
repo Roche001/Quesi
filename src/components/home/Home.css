@@ -1,10 +1,5 @@
 .banner {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.7),
-      rgb(79, 34, 34, 0.9)
-    ),
-    url(../../images/Wood.jpeg);
+  background: url(../../images/Wood.jpeg);
   width: 100vw;
   height: 70vh;
   background-repeat: repeat;
@@ -20,11 +15,13 @@
   color: #ffffff;
   font-size: 3rem;
   font-size: 900;
+  backdrop-filter: blur(7px);
 }
 .banner p {
   color: #ffffff;
   font-size: 2rem;
   font-size: 900;
+  backdrop-filter: blur(7px);
 }
 .fire {
   display: flex;
