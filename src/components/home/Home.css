@@ -141,6 +141,26 @@ button {
 .location-one h5 {
   color: #320a02;
 }
+.top-brands {
+  text-align: center;
+}
+.top-liqour {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-dog {
+  height: 14rem;
+  width: 12rem;
+  margin: 0.5rem;
+}
+.top-dog img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
 @media screen and (max-width: 600px) {
   .fire {
     width: 95vw;

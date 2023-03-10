@@ -77,4 +77,20 @@ export const location = [
   { title: "Thika", titleLink: "/Thika" },
   { title: "Kilifi", titleLink: "/Kilifi" },
   { title: "Kisii", titleLink: "/Kisii" },
+  { title: "Naivasha", titleLink: "/Naivasha" },
+  { title: "Oyugis", titleLink: "/Oyugis" },
+  { title: "Vihiga", titleLink: "/Vihiga" },
+  { title: "Chavakali", titleLink: "/Chavakali" },
+];
+export const top = [
+  {
+    title: "./assets/brand1.jpg",
+  },
+  { title: "./assets/brand2.jpg" },
+  { title: "./assets/brand3.jpg" },
+  { title: "./assets/brand4.jpg" },
+  { title: "./assets/brand5.jpg" },
+  { title: "./assets/brand6.jpg" },
+  { title: "./assets/brand7.jpg" },
+  { title: "./assets/brand8.jpg" },
 ];

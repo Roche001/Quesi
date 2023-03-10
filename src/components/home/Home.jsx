@@ -8,6 +8,7 @@ import { homewine } from "../../drinks";
 import { homespirit } from "../../drinks";
 import { homeextras } from "../../drinks";
 import { location } from "../../drinks";
+import { top } from "../../drinks";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -131,7 +132,7 @@ const Home = () => {
           <button>Find Liqour Store</button>
         </div>
         <div className="home-find-two">
-          <img src="./assets/index.jpg" alt="liqour-store" />
+          <img src="./assets/index.jpg" alt="liqour-store" loading="lazy" />
         </div>
       </div>
       <div className="home-location">
@@ -153,6 +154,19 @@ const Home = () => {
           })}
         </div>
         <button>View all Locations</button>
+      </div>
+      <div className="top-brands">
+        <h3>Top Brands</h3>
+        <div className="top-liqour">
+          {" "}
+          {top.map((top, index) => {
+            return (
+              <div key={index} className="top-dog  rotate">
+                <img src={top.title} alt="top-brand" loading="lazy" />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
