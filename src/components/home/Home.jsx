@@ -161,8 +161,10 @@ const Home = () => {
           {" "}
           {top.map((top, index) => {
             return (
-              <div key={index} className="top-dog  rotate">
-                <img src={top.title} alt="top-brand" loading="lazy" />
+              <div className="top-dog ">
+                <div key={index}>
+                  <img src={top.title} alt="top-brand" loading="lazy" />
+                </div>
               </div>
             );
           })}

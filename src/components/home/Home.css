@@ -195,6 +195,17 @@ button {
   .location-one {
     grid-template-columns: 1fr 1fr;
   }
+  .top-liqour {
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .top-dog img {
+    width: 12rem;
+    margin: 0.1rem;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 950px) {
   .home-drinks {
