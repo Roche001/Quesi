@@ -41,7 +41,7 @@
 }
 .home-drinks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
@@ -72,13 +72,13 @@
   transition: 1s ease;
 }
 .home-category {
-  background: #8d6e63;
+  background: #d2d2d2;
   text-align: center;
   padding: 0.5rem;
 }
 .home-div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
 }
 .home-beer,
@@ -125,14 +125,14 @@ button {
   border-radius: 1rem;
 }
 .home-location {
-  background: #8d6e63;
+  background: #d2d2d2;
   text-align: center;
   color: #320a02;
   padding: 1rem;
 }
 .location-one {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   margin: 1rem;
   width: 80vw;
   margin-left: auto;
@@ -143,18 +143,23 @@ button {
 }
 .top-brands {
   text-align: center;
+  padding: 1rem;
 }
 .top-liqour {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 .top-dog {
-  height: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
   width: 12rem;
-  margin: 0.5rem;
 }
 .top-dog img {
   height: 100%;

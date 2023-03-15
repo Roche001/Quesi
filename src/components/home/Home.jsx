@@ -158,13 +158,10 @@ const Home = () => {
       <div className="top-brands">
         <h3>Top Brands</h3>
         <div className="top-liqour">
-          {" "}
           {top.map((top, index) => {
             return (
-              <div className="top-dog ">
-                <div key={index}>
-                  <img src={top.title} alt="top-brand" loading="lazy" />
-                </div>
+              <div key={index} className="top-dog ">
+                <img src={top.title} alt="top-brand" loading="lazy" />
               </div>
             );
           })}
