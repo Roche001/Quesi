@@ -161,7 +161,7 @@ const Home = () => {
           {top.map((top, index) => {
             return (
               <div key={index}>
-                <div className="drinks-one">
+                <div className="top-dog">
                   <img src={top.title} alt="top-brand" loading="lazy" />
                 </div>
               </div>
