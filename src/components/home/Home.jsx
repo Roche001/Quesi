@@ -160,8 +160,10 @@ const Home = () => {
         <div className="top-liqour">
           {top.map((top, index) => {
             return (
-              <div key={index} className="top-dog ">
-                <img src={top.title} alt="top-brand" loading="lazy" />
+              <div key={index}>
+                <div className="drinks-one">
+                  <img src={top.title} alt="top-brand" loading="lazy" />
+                </div>
               </div>
             );
           })}
