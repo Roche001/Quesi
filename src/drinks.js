@@ -84,13 +84,13 @@ export const location = [
 ];
 export const top = [
   {
-    title: "./assets/brand1.jpg",
+    title: "./assets/brand1.png",
   },
-  { title: "./assets/brand2.jpg" },
-  { title: "./assets/brand3.jpg" },
-  { title: "./assets/brand4.jpg" },
-  { title: "./assets/brand5.jpg" },
-  { title: "./assets/brand6.jpg" },
-  { title: "./assets/brand7.jpg" },
-  { title: "./assets/brand8.jpg" },
+  { title: "./assets/brand2.png" },
+  { title: "./assets/brand3.png" },
+  { title: "./assets/brand4.png" },
+  { title: "./assets/brand5.png" },
+  { title: "./assets/brand6.png" },
+  { title: "./assets/brand7.png" },
+  { title: "./assets/brand8.png" },
 ];
