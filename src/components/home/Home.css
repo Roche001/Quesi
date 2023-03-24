@@ -178,16 +178,15 @@ button {
 }
 @media screen and (max-width: 600px) {
   .fire {
-    width: 95vw;
+    width: 100vw;
   }
   .home-drinks {
-    width: 98vw;
+    width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
-  .drinks-one {
-    margin: 0.5rem;
-  }
+
   .home-div {
     display: grid;
     grid-template-columns: 1fr;
