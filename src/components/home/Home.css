@@ -117,6 +117,7 @@ button {
   color: #ffffff;
   font-weight: 800;
   font-size: 1.2rem;
+  width: fit-content;
 }
 .home-find-one {
   display: flex;

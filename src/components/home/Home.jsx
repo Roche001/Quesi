@@ -183,6 +183,7 @@ const Home = () => {
             );
           })}
         </div>
+        <button>Start Shopping</button>
       </div>
     </div>
   );
