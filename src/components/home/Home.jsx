@@ -2,14 +2,16 @@ import React from "react";
 import "./Home.css";
 import { BsSearch } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
-import { beer } from "../../drinks";
-import { crates } from "../../drinks";
-import { homewine } from "../../drinks";
-import { homespirit } from "../../drinks";
-import { homeextras } from "../../drinks";
-import { location } from "../../drinks";
-import { top } from "../../drinks";
-import { work } from "../../drinks";
+import {
+  beer,
+  crates,
+  homewine,
+  homespirit,
+  homeextras,
+  location,
+  top,
+  work,
+} from "../../drinks";
 import { Link } from "react-router-dom";
 
 const Home = () => {

@@ -160,7 +160,7 @@ button {
 .top-liqour {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 50vw;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;

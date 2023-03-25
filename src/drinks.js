@@ -114,3 +114,9 @@ export const work = [
       "You have the option of having the store deliver your order or picking it up when it's convenient for you. ",
   },
 ];
+export const app = [
+  {
+    title: "./assets/app.png",
+  },
+  { title: "./assets/app1.png" },
+];
