@@ -192,6 +192,18 @@ button {
 .work-list {
   margin: 0.5rem;
 }
+.app {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-one {
+  display: flex;
+}
+.app-one img {
+  height: 25rem;
+}
 @media screen and (max-width: 600px) {
   .fire {
     width: 100vw;

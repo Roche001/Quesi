@@ -120,3 +120,10 @@ export const app = [
   },
   { title: "./assets/app1.png" },
 ];
+export const app2 = [
+  { title: "./assets/apple.png", titleLink: "https://www.apple.com/store" },
+  {
+    title: "./assets/apple1.png",
+    titleLink: "https://play.google.com/store/games?hl=en&gl=US",
+  },
+];

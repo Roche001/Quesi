@@ -11,6 +11,8 @@ import {
   location,
   top,
   work,
+  app,
+  app2,
 } from "../../drinks";
 import { Link } from "react-router-dom";
 
@@ -186,6 +188,36 @@ const Home = () => {
           })}
         </div>
         <button>Start Shopping</button>
+      </div>
+      <div className="app">
+        <div className="app-one">
+          {app.map((app, index) => {
+            return (
+              <div key={index} className="work-list">
+                <img src={app.title} alt="work" loading="lazy" />
+              </div>
+            );
+          })}
+        </div>
+        <div className="app-two">
+          <h4>Download the app</h4>
+          <p>
+            Download our free app for your phone to improve your shopping
+            experience. Get your preferred beer, wine, liquor, and other items
+            delivered from nearby shops.{" "}
+          </p>
+          <div className="app-three">
+            {app2.map((app2, index) => {
+              return (
+                <div key={index} className="hustler">
+                  <Link to={app2.titleLink} target="_blank" rel="noreferrer">
+                    <img src={app2.title} alt="work" loading="lazy" />
+                  </Link>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
