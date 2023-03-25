@@ -9,6 +9,7 @@ import { homespirit } from "../../drinks";
 import { homeextras } from "../../drinks";
 import { location } from "../../drinks";
 import { top } from "../../drinks";
+import { work } from "../../drinks";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -171,6 +172,17 @@ const Home = () => {
       </div>
       <div className="home-works">
         <h3> How it Works</h3>
+        <div className="work-flex">
+          {work.map((work, index) => {
+            return (
+              <div key={index} className="work-list">
+                <img src={work.title} alt="work" loading="lazy" />
+                <h5>{work.imgTitle}</h5>
+                <p>{work.description}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

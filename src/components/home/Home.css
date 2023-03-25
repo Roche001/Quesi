@@ -180,6 +180,17 @@ button {
   text-align: center;
   padding: 0.5rem;
 }
+.work-flex {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work-list {
+  margin: 0.5rem;
+}
 @media screen and (max-width: 600px) {
   .fire {
     width: 100vw;
@@ -224,6 +235,10 @@ button {
     width: 6rem;
     margin: 0.1rem;
   }
+  .work-flex {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 950px) {
   .home-drinks {
@@ -237,6 +252,9 @@ button {
   .top-liqour {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .work-flex {
+    width: 95vw;
   }
 }
 /* @media screen and (min-width: 951px;) {
