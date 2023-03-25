@@ -169,7 +169,9 @@ const Home = () => {
           })}
         </div>
       </div>
-      <div className="home-works"></div>
+      <div className="home-works">
+        <h3> How it Works</h3>
+      </div>
     </div>
   );
 };
