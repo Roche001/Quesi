@@ -179,7 +179,7 @@ const Home = () => {
         <div className="work-flex">
           {work.map((work, index) => {
             return (
-              <div key={index} className="work-list">
+              <div key={index} className="work-one">
                 <img src={work.title} alt="work" loading="lazy" />
                 <h5>{work.imgTitle}</h5>
                 <p>{work.description}</p>

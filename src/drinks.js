@@ -118,7 +118,8 @@ export const app = [
   {
     title: "./assets/app.png",
   },
-  { title: "./assets/app1.png" },
+
+  { title: "./assets/app3.png" },
 ];
 export const app2 = [
   { title: "./assets/apple.png", titleLink: "https://www.apple.com/store" },
