@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { bar } from "../../nav";
 
 const Top = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
