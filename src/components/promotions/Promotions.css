@@ -1,0 +1,27 @@
+.promotions-container {
+  background: url(../../images/texture.webp);
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promo {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .promotions-container {
+    height: 80vh;
+  }
+  .promo {
+    width: 95vw;
+  }
+  .promo-img {
+    width: 100%;
+  }
+  .promo-img img {
+    width: 100%;
+  }
+}

@@ -2,7 +2,15 @@ import React from "react";
 import "./Beer.css";
 
 const Beer = () => {
-  return <div>Beer</div>;
+  return (
+    <div className="beer-des">
+      <div className="des">
+        {" "}
+        <img src="./assets/transformed(1).png" alt="hee" />
+        <span>Quesi.com</span>
+      </div>
+    </div>
+  );
 };
 
 export default Beer;
