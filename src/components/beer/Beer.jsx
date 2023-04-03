@@ -6,7 +6,7 @@ const Beer = () => {
     <div className="beer-des">
       <div className="des">
         {" "}
-        <img src="./assets/transformed(1).png" alt="hee" />
+        <img src="./assets/Glenfiddich-transformed(1).png" alt="hee" />
         <span>Quesi.com</span>
       </div>
     </div>

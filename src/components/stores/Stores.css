@@ -1,0 +1,15 @@
+.store-container {
+  background: url(../../images/texture.webp);
+  background-attachment: fixed;
+}
+.store-container {
+  width: 100vw;
+}
+.banner {
+  height: 60vh;
+}
+.store-category {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
