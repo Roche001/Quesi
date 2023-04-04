@@ -12,4 +12,27 @@
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.5rem;
+}
+.store-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.stores-one {
+  background: #d2d2d2;
+  margin: 0.5rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+.store-works {
+  margin: 0.5rem;
+}
+.work-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
 }

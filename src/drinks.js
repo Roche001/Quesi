@@ -128,3 +128,9 @@ export const app2 = [
     titleLink: "https://play.google.com/store/games?hl=en&gl=US",
   },
 ];
+export const cat = [
+  { titleImage: "./assets/biz1.png", title: "Beer", titleLink: "/Beer" },
+  { titleImage: "./assets/biz2.png", title: " Wine", titleLink: "/Wine" },
+  { titleImage: "./assets/biz3.png", title: "Whiskey", titleLink: "/Whiskey" },
+  { titleImage: "./assets/biz4.png", title: "Extras", titleLink: "/Extras" },
+];

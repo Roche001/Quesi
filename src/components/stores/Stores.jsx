@@ -1,6 +1,10 @@
 import React from "react";
 import "./Stores.css";
+import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import { cat } from "../../drinks";
+import { work } from "../../drinks";
+
 const Stores = () => {
   return (
     <div className="store-container">
@@ -23,6 +27,38 @@ const Stores = () => {
         </div>
         <div className="store-category">
           <h3>Shop by Category</h3>
+          <div className="store-items">
+            {cat.map((cat, index) => {
+              return (
+                <div key={index}>
+                  <Link
+                    to={cat.titleLink}
+                    id="menu-two"
+                    className="drinks-one  stores-one"
+                  >
+                    <img src={cat.titleImage} alt="liqour" loading="lazy" />
+                    <h5>{cat.title}</h5>
+                  </Link>
+                </div>
+              );
+            })}
+          </div>{" "}
+          <div className="store-works">
+            <h3> How it Works</h3>
+            <div className="work-store">
+              {work.map((work, index) => {
+                return (
+                  <div key={index} className="work-one">
+                    <img src={work.title} alt="work" loading="lazy" />
+                    <h5>{work.imgTitle}</h5>
+                    <p>{work.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+            {/* <button>Start Shopping</button> */}
+          </div>
+          <div className="store-product"></div>
         </div>
       </div>
     </div>
