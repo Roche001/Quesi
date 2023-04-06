@@ -134,3 +134,77 @@ export const cat = [
   { titleImage: "./assets/biz3.png", title: "Whiskey", titleLink: "/Whiskey" },
   { titleImage: "./assets/biz4.png", title: "Extras", titleLink: "/Extras" },
 ];
+export const pop = [
+  {
+    titleImage: "./assets/pop1.jpg",
+    title: "Crown Royal Fine Deluxe Blended Canadian Whiskey ",
+    titleLink: "/Crown Royal Fine Deluxe Blended Canadian Whiskey",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop2.jpg",
+    title: "Tanqueray London Dry Gin ",
+    titleLink: "/Tanqueray London Dry Gin",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop3.jpg",
+    title: "Ketel One Vodka ",
+    titleLink: "/Ketel One Vodka ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop4.jpg",
+    title: "Don Julio 1942 Tequila  ",
+    titleLink: "/Don Julio 1942 Tequila ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop5.jpg",
+    title: "Johnnie Walker Black Label 12 Year Old ",
+    titleLink: "/Johnnie Walker Black Label 12 Year Old ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop6.jpg",
+    title: "Smirnoff No. 21 Vodka ",
+    titleLink: "/Smirnoff No. 21 Vodka",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop7.jpg",
+    title: "Jagermeister  ",
+    titleLink: "/Jagermeister ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop8.jpg",
+    title: "Jim Beam Bourbon  ",
+    titleLink: "/Jim Beam Bourbon ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop9.jpg",
+    title: "Captain Morgan Original Spiced Rum  ",
+    titleLink: "/Captain Morgan Original Spiced Rum ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop10.jpg",
+    title: "Tito's Handmade Vodka ",
+    titleLink: "/Tito's Handmade Vodka ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop11.jpg",
+    title: "Absolut Vodka  ",
+    titleLink: "/Absolut Vodka ",
+    titleSize: "750ml Bottle",
+  },
+  {
+    titleImage: "./assets/pop12.jpg",
+    title: "Jack Daniel's Old No. 7 Tennessee Whiskey ",
+    titleLink: "/Jack Daniel's Old No. 7 Tennessee Whiskey",
+    titleSize: "750ml Bottle",
+  },
+];

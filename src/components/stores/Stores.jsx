@@ -3,7 +3,7 @@ import "./Stores.css";
 import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import { cat } from "../../drinks";
-import { work } from "../../drinks";
+import { work, pop } from "../../drinks";
 
 const Stores = () => {
   return (
@@ -58,7 +58,22 @@ const Stores = () => {
             </div>
             {/* <button>Start Shopping</button> */}
           </div>
-          <div className="store-product"></div>
+          <div className="store-product">
+            <h3>Popular Products</h3>
+            <div className="pop-store">
+              {pop.map((pop, index) => {
+                return (
+                  <Link to={pop.titleLink} id="about">
+                    <div key={index} className="pop-item">
+                      <img src={pop.titleImage} alt="work" loading="lazy" />
+                      <h5>{pop.title}</h5>
+                      <p>{pop.titleSize}</p>
+                    </div>{" "}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
