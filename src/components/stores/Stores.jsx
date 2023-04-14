@@ -4,8 +4,36 @@ import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import { cat } from "../../drinks";
 import { work, pop } from "../../drinks";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Stores = () => {
+  const options = {
+    margin: 1,
+    responsiveClass: true,
+    nav: false,
+    autoplay: true,
+    smartSpeed: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      700: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  };
   return (
     <div className="store-container">
       <div className="stores-banner">
@@ -60,7 +88,10 @@ const Stores = () => {
           </div>
           <div className="store-product">
             <h3>Popular Products</h3>
-            <div className="pop-store">
+            <OwlCarousel
+              className="slider-items owl-carousel pop-store"
+              {...options}
+            >
               {pop.map((pop, index) => {
                 return (
                   <Link to={pop.titleLink} id="about">
@@ -72,7 +103,7 @@ const Stores = () => {
                   </Link>
                 );
               })}
-            </div>
+            </OwlCarousel>
           </div>
         </div>
       </div>

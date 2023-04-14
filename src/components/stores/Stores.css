@@ -43,25 +43,34 @@
   flex-direction: column;
   text-align: center;
 }
+.pop-store {
+  margin: 0.5rem;
+}
 .pop-item {
-  border-radius: 0.3rem;
   background: #ffffff;
-  width: 18rem;
-  height: 29rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 18rem;
+  height: 25rem;
   margin: 0.5rem;
-  border: 0.5px solid;
+  border-radius: 0.3rem;
+  border: 0.5px solid #e3dddd;
   transition: ease-in-out 400ms;
   color: #320a02;
-  padding: 0.2rem;
 }
 .pop-item:hover {
   box-shadow: 0px 8px 30px #424242;
 }
 #pop-item {
   text-decoration: none;
+}
+.pop-item h5 {
+  padding: 0.5rem;
+}
+.pop-item img {
+  padding: 0.5rem;
+  height: 24rem;
 }
