@@ -54,7 +54,7 @@
   justify-content: center;
   text-align: center;
   width: 18rem;
-  height: 25rem;
+  height: 26rem;
   margin: 0.5rem;
   border-radius: 0.3rem;
   border: 0.5px solid #e3dddd;
@@ -72,5 +72,41 @@
 }
 .pop-item img {
   padding: 0.5rem;
-  height: 24rem;
+}
+.pop-city {
+  width: 88%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pop-map {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #d2d2d2;
+  width: 20rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+}
+.pop-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.pop-content {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.pop-content h6 {
+  color: #320a02;
+}
+.pop-content h6:hover {
+  opacity: 0.4;
 }

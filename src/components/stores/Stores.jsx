@@ -2,20 +2,24 @@ import React from "react";
 import "./Stores.css";
 import { Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import { IoIosArrowForward } from "react-icons/io";
 import { cat } from "../../drinks";
 import { work, pop } from "../../drinks";
+import { city } from "../../miss";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Stores = () => {
   const options = {
-    margin: 1,
     responsiveClass: true,
-    nav: false,
+    autoWidth: true,
+    loop: true,
+    pullDrag: true,
     autoplay: true,
-    smartSpeed: 1000,
     autoplayHoverPause: true,
+    autoHeight: true,
+    smartSpeed: 800,
     responsive: {
       0: {
         items: 1,
@@ -104,6 +108,84 @@ const Stores = () => {
                 );
               })}
             </OwlCarousel>
+          </div>
+          <div className="pop-avail">
+            <h3>Available Locations</h3>
+            <p>
+              We currently provide service in the following cities, with more to
+              be added soon. Stay tuned for updates!
+            </p>
+            <div className="pop-city">
+              {city.map((item, i) => {
+                return (
+                  <div className="pop-map">
+                    <div className="pop-head">
+                      {item.title}{" "}
+                      <h2>
+                        <IoIosArrowForward />
+                      </h2>
+                    </div>
+                    <div className="pop-middle">{item.description}</div>
+                    <div className="pop-content">
+                      <Link to={item.link1} id="about">
+                        <h6>{item.loc1}</h6>
+                      </Link>
+                      <Link to={item.link2} id="about">
+                        <h6> {item.loc2}</h6>
+                      </Link>
+                      <Link to={item.link3} id="about">
+                        <h6> {item.loc3}</h6>
+                      </Link>
+                      <Link to={item.link3} id="about">
+                        <h6>{item.loc3}</h6>
+                      </Link>
+                      <Link to={item.link4} id="about">
+                        <h6>{item.loc4}</h6>
+                      </Link>
+                      <Link to={item.link5} id="about">
+                        <h6> {item.loc5}</h6>
+                      </Link>
+                      <Link to={item.link6} id="about">
+                        <h6> {item.loc6}</h6>
+                      </Link>
+                      <Link to={item.link7} id="about">
+                        <h6> {item.loc7}</h6>
+                      </Link>
+                      <Link to={item.link8} id="about">
+                        <h6> {item.loc8}</h6>
+                      </Link>
+                      <Link to={item.link9} id="about">
+                        <h6>{item.loc9}</h6>
+                      </Link>
+                      <Link to={item.link10} id="about">
+                        <h6> {item.loc10}</h6>
+                      </Link>
+                      <Link to={item.link11} id="about">
+                        <h6> {item.loc11}</h6>
+                      </Link>
+                      <Link to={item.link12} id="about">
+                        <h6> {item.loc12}</h6>
+                      </Link>
+                      <Link to={item.link13} id="about">
+                        <h6> {item.loc13}</h6>
+                      </Link>
+                      <Link to={item.link14} id="about">
+                        <h6> {item.loc14}</h6>
+                      </Link>
+                      <Link to={item.link15} id="about">
+                        <h6> {item.loc16}</h6>
+                      </Link>
+                      <Link to={item.link17} id="about">
+                        <h6>{item.loc17}</h6>
+                      </Link>
+                      <Link to={item.link18} id="about">
+                        <h6> {item.loc18}</h6>
+                      </Link>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
