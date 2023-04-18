@@ -133,8 +133,10 @@ const Home = () => {
           <p>
             Discover local liquor stores and order your favorite beer, wine,
             liquor, and more online.{" "}
-          </p>
-          <button>Find Liqour Store</button>
+          </p>{" "}
+          <Link to="/Stores">
+            <button>Find Liqour Store</button>
+          </Link>
         </div>
         <div className="home-find-two">
           <img src="./assets/index.jpg" alt="liqour-store" loading="lazy" />

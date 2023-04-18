@@ -1,10 +1,9 @@
 import React from "react";
 import "./Stores.css";
 import { Link } from "react-router-dom";
-import { BsSearch } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
-import { cat } from "../../drinks";
-import { work, pop } from "../../drinks";
+
+import { work, pop, cat } from "../../drinks";
 import { city } from "../../miss";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
