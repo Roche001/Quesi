@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Stores.css";
 import { Link } from "react-router-dom";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 
 import { work, pop, cat } from "../../drinks";
 import { city } from "../../miss";
@@ -36,6 +36,13 @@ const Stores = () => {
         items: 5,
       },
     },
+  };
+  const [selected, setSelected] = useState(null);
+  const toggle = (i) => {
+    if (selected == i) {
+      return setSelected(null);
+    }
+    setSelected(i);
   };
   return (
     <div className="store-container">
@@ -108,10 +115,14 @@ const Stores = () => {
               {city.map((item, i) => {
                 return (
                   <div className="pop-map">
-                    <div className="pop-head">
+                    <div className="pop-head" onClick={() => toggle(i)}>
                       {item.title}{" "}
                       <h2>
-                        <IoIosArrowForward />
+                        {selected === i ? (
+                          <IoIosArrowDown />
+                        ) : (
+                          <IoIosArrowForward />
+                        )}
                       </h2>
                     </div>
                     <div className="pop-middle">{item.description}</div>

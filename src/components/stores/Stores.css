@@ -121,7 +121,6 @@
 .pop-content {
   display: flex;
   flex-direction: column;
-  display: none;
 }
 .pop-content h6 {
   color: #320a02;
