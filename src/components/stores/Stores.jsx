@@ -59,11 +59,7 @@ const Stores = () => {
             {cat.map((cat, index) => {
               return (
                 <div key={index}>
-                  <Link
-                    to={cat.titleLink}
-                    id="menu-two"
-                    className="drinks-one  stores-one"
-                  >
+                  <Link to={cat.titleLink} id="store" className="store-change">
                     <img src={cat.titleImage} alt="liqour" loading="lazy" />
                     <h5>{cat.title}</h5>
                   </Link>

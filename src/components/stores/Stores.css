@@ -39,11 +39,18 @@
   align-items: center;
   justify-content: center;
 }
-.stores-one {
+.store-change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #d2d2d2;
   margin: 0.5rem;
-  width: 20rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+}
+#store {
+  text-decoration: none;
+  color: #320a02;
 }
 .store-works {
   margin: 0.5rem;
@@ -144,10 +151,16 @@
     text-align: center;
   }
   .store-items {
-    width: 100vw;
+    width: 95vw;
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     place-items: center;
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .store-change {
+    margin: 0.5rem;
   }
   .work-store {
     display: flex;
