@@ -3,6 +3,10 @@ import { IoLogoTwitter } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import { FcAndroidOs } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
+import { ImLink } from "react-icons/im";
+import { FaUserAlt } from "react-icons/fa";
+import { SiPinboard } from "react-icons/si";
+import { GiExpand } from "react-icons/gi";
 export const lazy = [
   {
     title: "About Us",
@@ -271,5 +275,30 @@ export const city = [
     link10: "Kamukunji estate",
     loc11: "Maili nne",
     link11: "/Maili nne",
+  },
+];
+export const retail = [
+  {
+    title: "Boost Your Sales",
+    titlePar:
+      "On our platform, you can sell your alcoholic beverages and expand your consumer base to increase sales.",
+    titleIcon: <ImLink />,
+  },
+  {
+    title: "Attract New Clients",
+    titlePar: "Get new clients in your area with an online presence.",
+    titleIcon: <FaUserAlt />,
+  },
+  {
+    title: "Gain knowledge",
+    titlePar:
+      "To better understand business performance, access to dashboards, reports, and analytics.",
+    titleIcon: <SiPinboard />,
+  },
+  {
+    title: "Expand Online",
+    titlePar:
+      "Let us handle your online orders while assisting you in expanding your company.",
+    titleIcon: <GiExpand />,
   },
 ];
