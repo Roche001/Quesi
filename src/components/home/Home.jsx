@@ -20,9 +20,9 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="banner">
-        <h2>Order alcohol for delivery or pickup. </h2>
+        <h2>Order fresh farm produce for delivery or pickup. </h2>
         <p>
-          Get your favorite beer, wine & spirits delivered to your door step.
+          Get fresh fruits and vegetables delivered to your shop or door step.
         </p>
         <div className="fire">
           <input type="text" placeholder=" Enter Your Street or Home Address" />{" "}

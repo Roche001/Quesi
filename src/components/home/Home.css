@@ -20,13 +20,13 @@
   color: #ffffff;
   font-size: 3rem;
   font-size: 900;
-  /* backdrop-filter: blur(7px); */
+  backdrop-filter: blur(7px);
 }
 .banner p {
   color: #ffffff;
   font-size: 2rem;
   font-size: 900;
-  /* backdrop-filter: blur(7px); */
+  backdrop-filter: blur(7px);
 }
 .fire {
   display: flex;
