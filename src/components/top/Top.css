@@ -8,6 +8,7 @@
   z-index: 10000;
   backdrop-filter: blur(1px);
 }
+
 .logo {
   width: 10rem;
   height: 3rem;

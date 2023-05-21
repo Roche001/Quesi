@@ -13,6 +13,8 @@ import {
   work,
   app,
   app2,
+  poultry,
+  fish,
 } from "../../drinks";
 import { Link } from "react-router-dom";
 
@@ -25,7 +27,7 @@ const Home = () => {
           Get fresh fruits and vegetables delivered to your shop or door step.
         </p>
         <div className="fire">
-          <input type="text" placeholder=" Enter Your Street or Home Address" />{" "}
+          <input type="text" placeholder=" Enter Product Name or Category" />{" "}
           <h3>
             {" "}
             <BsSearch />
@@ -53,7 +55,7 @@ const Home = () => {
         <p>Start shopping by browshing your favorite category</p>
         <div className="home-div">
           <div className="home-beer">
-            <h2>Beer</h2>{" "}
+            <h2>Fruits</h2>{" "}
             <div className="home-beer-div">
               {crates.map((crates, index) => {
                 return (
@@ -70,7 +72,7 @@ const Home = () => {
           </div>
           <div className="home-wine">
             {" "}
-            <h2>Wine</h2>
+            <h2>Vegetables</h2>
             <div className="home-wine-div">
               {homewine.map((homewine, index) => {
                 return (
@@ -87,7 +89,7 @@ const Home = () => {
           </div>
           <div className="homeextras">
             {" "}
-            <h2>Extras</h2>
+            <h2>Grains</h2>
             <div className="homeextras-div">
               {homeextras.map((homeextras, index) => {
                 return (
@@ -105,7 +107,7 @@ const Home = () => {
           </div>
           <div className="homespirit">
             {" "}
-            <h2>Spirits</h2>
+            <h2>Legumes </h2>
             <div className="homespirit-div">
               {homespirit.map((homespirit, index) => {
                 return (
@@ -119,23 +121,57 @@ const Home = () => {
                 );
               })}
             </div>
+          </div>{" "}
+          <div className="homespirit">
+            {" "}
+            <h2>Dairy & Poultry </h2>
+            <div className="homespirit-div">
+              {poultry.map((item, index) => {
+                return (
+                  <div key={index}>
+                    <Link to={item.titleLink} id="menu-two">
+                      <h5>
+                        {item.title} {item.titleicon}
+                      </h5>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+          </div>{" "}
+          <div className="homespirit">
+            {" "}
+            <h2>Fish</h2>
+            <div className="homespirit-div">
+              {fish.map((item, index) => {
+                return (
+                  <div key={index}>
+                    <Link to={item.titleLink} id="menu-two">
+                      <h5>
+                        {item.title} {item.titleicon}
+                      </h5>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
       <div className="home-find">
         <div className="home-find-one">
           <h4>
-            Liqour stores in your neighbourhood{" "}
+            Find our fresh products in your neighbourhood{" "}
             <span>
               <MdLocationPin />
             </span>{" "}
           </h4>
           <p>
-            Discover local liquor stores and order your favorite beer, wine,
-            liquor, and more online.{" "}
+            Discover local stores and order your favorite fresh farm produce,
+            and more online.{" "}
           </p>{" "}
           <Link to="/Stores">
-            <button>Find Liqour Store</button>
+            <button>Find a Store</button>
           </Link>
         </div>
         <div className="home-find-two">

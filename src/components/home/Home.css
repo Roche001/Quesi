@@ -43,6 +43,8 @@
 .fire h3 {
   cursor: pointer;
   color: #320a02;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 .home-drinks {
   display: grid;
@@ -82,8 +84,9 @@
 }
 .home-div {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
+  align-items: start;
 }
 .home-beer,
 .home-wine,
@@ -241,13 +244,16 @@ button {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
-  .home-drinks img {
-    width: 11rem;
+
+  .drinks-one img {
+    width: 10rem;
   }
 
   .home-div {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
   .home-beer,
   .home-wine,
@@ -309,11 +315,14 @@ button {
     width: 100%;
   }
 }
-@media screen and (min-width: 601px) and (max-width: 950px) {
+@media screen and (min-width: 601px) and (max-width: 750px) {
   .home-drinks {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    width: 95vw;
   }
+
   .home-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -326,8 +335,19 @@ button {
     width: 95vw;
   }
 }
-/* @media screen and (min-width: 951px;) {
-  .home-drinks{
-
+@media screen and (min-width: 751px) and (max-width: 1050px) {
+  .home-drinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    width: 100vw;
   }
-} */
+}
+@media screen and (min-width: 1051px) {
+  .home-drinks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    width: 90vw;
+  }
+}
