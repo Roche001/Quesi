@@ -7,10 +7,10 @@ export const beer = [
   },
   {
     title: "Tomatoes",
-    titleImage: "./assets/vegetables.png",
+    titleImage: "./assets/beer2.png",
     titleLink: "/Wine",
   },
-  { title: "Whiskey", titleImage: "./assets/beer3.jpg", titleLink: "/Whiskey" },
+  { title: "Bananas", titleImage: "./assets/beer3.png", titleLink: "/Whiskey" },
   { title: "Tequila", titleImage: "./assets/beer4.jpg", titleLink: "/Tequila" },
   { title: "Vodka", titleImage: "./assets/beer5.jpg", titleLink: "/Vodka" },
   { title: "Rum", titleImage: "./assets/beer6.jpg", titleLink: "/Rum" },
