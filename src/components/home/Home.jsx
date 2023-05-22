@@ -24,7 +24,8 @@ const Home = () => {
       <div className="banner">
         <h2>Order fresh farm produce for delivery or pickup. </h2>
         <p>
-          Get fresh fruits and vegetables delivered to your shop or door step.
+          Get fresh fruits, vegetables, grains and many more delivered to your
+          shop or door step.
         </p>
         <div className="fire">
           <input type="text" placeholder=" Enter Product Name or Category" />{" "}
