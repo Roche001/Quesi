@@ -25,7 +25,7 @@ export const beer = [
     titleImage: "./assets/beer9.png",
     titleLink: "/Brandy",
   },
-  { title: "Extras", titleImage: "./assets/beer10.png", titleLink: "/Extras" },
+  { title: "Paw Paw", titleImage: "./assets/beer10.png", titleLink: "/Extras" },
 ];
 export const crates = [
   { title: "Bananas", titleLink: "/DomesticBeer" },
