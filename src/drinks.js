@@ -11,13 +11,21 @@ export const beer = [
     titleLink: "/Wine",
   },
   { title: "Bananas", titleImage: "./assets/beer3.png", titleLink: "/Whiskey" },
-  { title: "Tequila", titleImage: "./assets/beer4.jpg", titleLink: "/Tequila" },
-  { title: "Vodka", titleImage: "./assets/beer5.jpg", titleLink: "/Vodka" },
-  { title: "Rum", titleImage: "./assets/beer6.jpg", titleLink: "/Rum" },
-  { title: "Gin", titleImage: "./assets/beer7.jpg", titleLink: "/Gin" },
-  { title: "Cognac", titleImage: "./assets/beer8.jpg", titleLink: "/Cognac" },
-  { title: "Brandy", titleImage: "./assets/beer9.jpg", titleLink: "/Brandy" },
-  { title: "Extras", titleImage: "./assets/beer10.jpg", titleLink: "/Extras" },
+  {
+    title: "Groundnuts",
+    titleImage: "./assets/beer4.png",
+    titleLink: "/Tequila",
+  },
+  { title: "Potatoes", titleImage: "./assets/beer5.png", titleLink: "/Vodka" },
+  { title: "Maize", titleImage: "./assets/beer6.png", titleLink: "/Rum" },
+  { title: "Fish", titleImage: "./assets/beer7.png", titleLink: "/Gin" },
+  { title: "Poultry", titleImage: "./assets/beer8.png", titleLink: "/Cognac" },
+  {
+    title: "Lentis(Kamande)",
+    titleImage: "./assets/beer9.png",
+    titleLink: "/Brandy",
+  },
+  { title: "Extras", titleImage: "./assets/beer10.png", titleLink: "/Extras" },
 ];
 export const crates = [
   { title: "Bananas", titleLink: "/DomesticBeer" },

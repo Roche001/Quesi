@@ -235,8 +235,11 @@ button {
   padding: 0.5rem;
 }
 @media screen and (max-width: 600px) {
+  .banner {
+    height: 99vh;
+  }
   .fire {
-    width: 100vw;
+    width: 90vw;
   }
   .home-drinks {
     width: 99vw;
