@@ -98,13 +98,7 @@ const Footer = () => {
       </div>
       <div className="footer-two">
         <h5> Terms and Conditions | Privacy Policy </h5>
-        <h5>© 2023 Roche.Liqour LLC All rights reserved. </h5>
-        <p>
-          {" "}
-          <span>Alcoholic Drinks Control Act 2010:</span>Excessive alcohol
-          consumption is harmful to your health. These products are not for sale
-          to persons under the age of 18 years
-        </p>
+        <h5>© 2023 Grocery LLC All rights reserved. </h5>
       </div>
     </div>
   );

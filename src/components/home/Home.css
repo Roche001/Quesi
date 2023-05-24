@@ -20,13 +20,13 @@
   color: #ffffff;
   font-size: 3rem;
   font-size: 900;
-  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(7px); */
 }
 .banner p {
   color: #ffffff;
   font-size: 2rem;
   font-size: 900;
-  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(7px); */
 }
 .fire {
   display: flex;
@@ -78,7 +78,10 @@
   transition: 1s ease;
 }
 .home-category {
-  background: #d2d2d2;
+  background: url("../../images/green.jpeg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
   text-align: center;
   padding: 0.5rem;
 }
@@ -143,7 +146,10 @@ button {
   border-radius: 1rem;
 }
 .home-location {
-  background: #d2d2d2;
+  background: url("../../images/green.jpeg");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
   text-align: center;
   color: #320a02;
   padding: 1rem;
@@ -236,7 +242,7 @@ button {
 }
 @media screen and (max-width: 600px) {
   .banner {
-    height: 99vh;
+    height: 90vh;
   }
   .fire {
     width: 90vw;
