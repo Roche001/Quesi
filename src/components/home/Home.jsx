@@ -200,7 +200,7 @@ const Home = () => {
         <button>View all Locations</button>
       </div>
       <div className="top-brands">
-        <h3>Top Brands</h3>
+        <h3>Our Partners</h3>
         <div className="top-liqour">
           {top.map((top, index) => {
             return (
