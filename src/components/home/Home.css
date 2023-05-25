@@ -179,6 +179,9 @@ button {
   justify-content: center;
   align-items: center;
 }
+.top-liqour img {
+  width: 12rem;
+}
 .top-dog {
   display: flex;
   align-items: center;
