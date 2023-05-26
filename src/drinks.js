@@ -146,7 +146,7 @@ export const top = [
 export const work = [
   {
     title: "./assets/step1.png",
-    imgTitle: "Enter your address",
+    imgTitle: "Search Store/Product",
     description:
       "We'll show you what's available in your neighborhood retailers as soon as you provide your location.",
   },
