@@ -145,19 +145,19 @@ export const top = [
 ];
 export const work = [
   {
-    title: "./assets/step1.png",
+    title: "./assets/work1.jpg",
     imgTitle: "Search Store/Product",
     description:
       "We'll show you what's available in your neighborhood retailers as soon as you provide your location.",
   },
   {
-    title: "./assets/step2.png",
+    title: "./assets/work2.png",
     imgTitle: "Shop items you like",
     description:
       "Choose your preferred items, evaluate prices, and shop at several stores at once. ",
   },
   {
-    title: "./assets/step3.png",
+    title: "./assets/work3.jpeg",
     imgTitle: "Get your items delivered",
     description:
       "You have the option of having the store deliver your order or picking it up when it's convenient for you. ",

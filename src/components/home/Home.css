@@ -170,6 +170,7 @@ button {
   text-align: center;
   padding: 1rem;
 }
+
 .top-liqour {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -202,6 +203,10 @@ button {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+}
+.work-flex img {
+  width: 10rem;
+  border-radius: 0.3rem;
 }
 .work-list {
   margin: 0.5rem;
