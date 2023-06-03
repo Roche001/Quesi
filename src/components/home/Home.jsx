@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="banner">
-        <h2>Order fresh farm produce for delivery or pickup. </h2>
+        <h2>Order fresh Organic farm produce for delivery or pickup. </h2>
         <p>
           Get fresh fruits, vegetables, grains and many more delivered to your
           shop or door step.
