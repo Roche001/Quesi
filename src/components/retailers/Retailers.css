@@ -69,12 +69,54 @@ p {
   width: 60%;
   border-radius: 0.5rem;
   cursor: pointer;
-  transform: rotate(-7deg);
+
   transition: 400ms ease-in-out;
+}
+.grow-text img :hover {
+  transform: rotate(0.5turn);
 }
 
 .button {
   animation: wiggle 2s linear infinite;
+}
+.retailer-lis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+.store-website {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.retailer-list-one h2 {
+  color: #458c47;
+}
+.retailer-web {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: start;
+}
+.website-photo {
+  width: 70%;
+  width: 45rem;
+  height: 25rem;
+}
+.website-photo img {
+  width: 100%;
+  height: 100%;
+}
+.website-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 601px) {
