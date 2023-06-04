@@ -49,7 +49,7 @@ const Retailers = () => {
             })}
           </div>
         </div>
-        <div className="store-website">
+        {/* <div className="store-website">
           <div className="website-text">
             <h3>Store Micro Website</h3>
             {web.map((item, index) => {
@@ -82,7 +82,7 @@ const Retailers = () => {
               );
             })}
           </div>
-        </div>
+        </div> */}
         <div className="pos">
           <h3>POS Integrations</h3>
           <div className="pos-list">
