@@ -99,3 +99,17 @@ export const app = [
       "Get shopping cart integrated with your micro website that facilitates your visitors to place their orders.",
   },
 ];
+export const pos = [
+  { title: "./assets/pos1.png" },
+  { title: "./assets/pos2.png" },
+  { title: "./assets/pos3.png" },
+  { title: "./assets/pos4.png" },
+  { title: "./assets/pos5.png" },
+  { title: "./assets/pos6.png" },
+  { title: "./assets/pos7.png" },
+  { title: "./assets/pos8.png" },
+  { title: "./assets/pos9.png" },
+  { title: "./assets/pos10.png" },
+  { title: "./assets/pos11.png" },
+  { title: "./assets/pos12.png" },
+];

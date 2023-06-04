@@ -1,7 +1,7 @@
 import React from "react";
 import "./Retailers.css";
 import { retail } from "../../miss";
-import { how, web, app } from "../../nav";
+import { how, web, app, pos } from "../../nav";
 
 const Retailers = () => {
   return (
@@ -63,12 +63,12 @@ const Retailers = () => {
             })}
           </div>
           <div className="website-photo">
-            <img src="././assets/Untitled1.png" alt="store" />
+            <img src="././assets/Untitled1.png" alt="store" loading="lazy" />
           </div>
         </div>
         <div className="store-app">
           <div className="app-photo">
-            <img src="././assets/Untitled2.png" alt="store" />
+            <img src="././assets/Untitled2.png" alt="store" loading="lazy" />
           </div>
           <div className="app-text">
             <h3>Store App</h3>
@@ -78,6 +78,18 @@ const Retailers = () => {
                   <h2>{item.titleIcon}</h2>
                   <h3>{item.title}</h3>
                   <p>{item.titlelisting}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="pos">
+          <h3>POS Integrations</h3>
+          <div className="pos-list">
+            {pos.map((item, index) => {
+              return (
+                <div key={index} className="pos-item">
+                  <img src={item.title} alt="POS" loading="lazy" />
                 </div>
               );
             })}
