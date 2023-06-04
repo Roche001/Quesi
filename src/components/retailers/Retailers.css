@@ -49,7 +49,7 @@ p {
 }
 .img-one {
   margin: 0.8rem;
-  background: #43a047;
+  background: #8bc34a;
   padding: 1.5rem;
   border-radius: 0.5rem;
   display: flex;
@@ -113,6 +113,28 @@ p {
 }
 .website-text {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.store-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.app-photo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-photo img {
+  width: 20rem;
+  height: 32rem;
+}
+.app-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

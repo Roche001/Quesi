@@ -7,6 +7,8 @@ import { BsTools } from "react-icons/bs";
 import { CiMobile1 } from "react-icons/ci";
 import { RiShoppingCartFill } from "react-icons/ri";
 import { CgPlayListCheck } from "react-icons/cg";
+import { GiFruitBowl } from "react-icons/gi";
+import { RiGlobalFill } from "react-icons/ri";
 export const bar = [
   { title: "Home", navLink: "/" },
   { title: "Fruits", navLink: "/Beer" },
@@ -72,6 +74,26 @@ export const web = [
   },
   {
     titleIcon: <RiShoppingCartFill />,
+    title: "Shopping Cart",
+    titlelisting:
+      "Get shopping cart integrated with your micro website that facilitates your visitors to place their orders.",
+  },
+];
+export const app = [
+  {
+    titleIcon: <MdAdminPanelSettings />,
+    title: "Order Management",
+    titlelisting:
+      "Manage orders for delivery and pickup from the GotoLiquorStore marketplace and store microsite..",
+  },
+  {
+    titleIcon: <GiFruitBowl />,
+    title: "Product Management",
+    titlelisting:
+      "Scan barcodes, locate products, and control product pricing for your store with ease.",
+  },
+  {
+    titleIcon: <RiGlobalFill />,
     title: "Shopping Cart",
     titlelisting:
       "Get shopping cart integrated with your micro website that facilitates your visitors to place their orders.",

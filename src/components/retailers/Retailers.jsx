@@ -1,7 +1,7 @@
 import React from "react";
 import "./Retailers.css";
 import { retail } from "../../miss";
-import { how, web } from "../../nav";
+import { how, web, app } from "../../nav";
 
 const Retailers = () => {
   return (
@@ -64,6 +64,23 @@ const Retailers = () => {
           </div>
           <div className="website-photo">
             <img src="././assets/Untitled1.png" alt="store" />
+          </div>
+        </div>
+        <div className="store-app">
+          <div className="app-photo">
+            <img src="././assets/Untitled2.png" alt="store" />
+          </div>
+          <div className="app-text">
+            <h3>Store App</h3>
+            {app.map((item, index) => {
+              return (
+                <div key={index} className="retailer-web">
+                  <h2>{item.titleIcon}</h2>
+                  <h3>{item.title}</h3>
+                  <p>{item.titlelisting}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
