@@ -1,7 +1,9 @@
 import React from "react";
 import "./Retailers.css";
 import { retail } from "../../miss";
-import { how, web, app, pos } from "../../nav";
+import { how, pos } from "../../nav";
+import { FiLogIn } from "react-icons/fi";
+import { BiUserPlus } from "react-icons/bi";
 
 const Retailers = () => {
   return (
@@ -15,6 +17,20 @@ const Retailers = () => {
       </div>
       <div className="retailers-grow">
         <h3>Unlock Your Business Potential with Our Expertise</h3>
+        <div className="ret-log">
+          <div className="retlog">
+            {" "}
+            <h5>
+              <FiLogIn /> Login
+            </h5>
+          </div>
+          <div className="retreg">
+            {" "}
+            <h5>
+              <BiUserPlus /> Register
+            </h5>
+          </div>
+        </div>
         <div className="grow-container">
           <div className="save">
             {retail.map((item, index) => {
