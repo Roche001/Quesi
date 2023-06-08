@@ -23,7 +23,7 @@ export const help = [
   { title: "Contact Us", titleLink: "/Contactus" },
   { title: "Request Product", titleLink: "/Request" },
   { title: "Return & Refund", titleLink: "/Refund" },
-  { title: "Join as Retailer", titleLink: "/Join" },
+  { title: "Join as Retailer", titleLink: "/Retailers" },
 ];
 export const account = [
   { title: "Sign In", titleLink: "/Signin" },

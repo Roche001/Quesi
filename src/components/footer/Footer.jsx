@@ -1,12 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import { lazy } from "../../miss";
+import { lazy, help, account, social, down, pay } from "../../miss";
 import { Link } from "react-router-dom";
-import { help } from "../../miss";
-import { account } from "../../miss";
-import { social } from "../../miss";
-import { down } from "../../miss";
-import { pay } from "../../miss";
+
 const Footer = () => {
   return (
     <div className="footer-container">
