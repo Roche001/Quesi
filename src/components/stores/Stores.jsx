@@ -94,8 +94,7 @@ const Stores = () => {
                     <div key={index} className="pop-item">
                       <img src={pop.titleImage} alt="work" loading="lazy" />
                       <h5>{pop.title}</h5>
-                      <p>{pop.titleSize}</p>
-                    </div>{" "}
+                    </div>
                   </Link>
                 );
               })}
