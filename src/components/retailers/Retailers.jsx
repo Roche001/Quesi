@@ -10,7 +10,9 @@ const Retailers = () => {
   return (
     <div className="retailers-section">
       <div className="banner-retailers">
-        <h2>Unlock the Digital Bar: Bring Your Grocery Store to the Web! </h2>
+        <h2>
+          Unlock the Digital Grocery Store: Bring Your Grocery Store to the Web!{" "}
+        </h2>
         <p>
           Having an internet presence for your business is crucial, and we can
           assist you with selling more organic farm produce online.

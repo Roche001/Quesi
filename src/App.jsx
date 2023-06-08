@@ -9,7 +9,7 @@ import Promotions from "./components/promotions/Promotions";
 import Retailers from "./components/retailers/Retailers";
 import Spirits from "./components/spirits/Spirits";
 import Stores from "./components/stores/Stores";
-import Wine from "./components/wine/Wine";
+import Vegetables from "./components/vegetables/Vegetables";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
         <Route Retailers path="Retailers" exact element={<Retailers />} />
         <Route Spirits path="Spirits" exact element={<Spirits />} />
         <Route Stores path="Stores" exact element={<Stores />} />
-        <Route Wine path="Wine" exact element={<Wine />} />
+        <Route Wine path="Vegetables" exact element={<Vegetables />} />
       </Routes>
       <Footer />
     </Router>

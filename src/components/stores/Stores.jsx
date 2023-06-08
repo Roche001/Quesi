@@ -48,9 +48,10 @@ const Stores = () => {
     <div className="store-container">
       <div className="stores-banner">
         <div className="banner-store">
-          <h2>Find liqour stores around you. </h2>
+          <h2>Find Grocery stores around you. </h2>
           <p>
-            Get your favorite beer, wine & spirits delivered to your door step.
+            Get fresh fruits, vegatables & many more organic farm produce
+            delivered to your door step.
           </p>
         </div>
         <div className="store-category">

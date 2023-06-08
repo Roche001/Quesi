@@ -12,7 +12,7 @@ import { RiGlobalFill } from "react-icons/ri";
 export const bar = [
   { title: "Home", navLink: "/" },
   { title: "Fruits", navLink: "/Beer" },
-  { title: "Vegatables", navLink: "/Wine" },
+  { title: "Vegatables", navLink: "/Vegetables" },
   { title: "Grains", navLink: "/Spirits" },
   { title: "Legumes", navLink: "/Extras" },
   { title: "Dairy & Poultry", navLink: "/Poultry" },
