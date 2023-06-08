@@ -4,6 +4,7 @@ import { retail } from "../../miss";
 import { how, pos } from "../../nav";
 import { FiLogIn } from "react-icons/fi";
 import { BiUserPlus } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Retailers = () => {
   return (
@@ -18,18 +19,22 @@ const Retailers = () => {
       <div className="retailers-grow">
         <h3>Unlock Your Business Potential with Our Expertise</h3>
         <div className="ret-log">
-          <div className="retlog">
-            {" "}
-            <h5>
-              <FiLogIn /> Login
-            </h5>
-          </div>
-          <div className="retreg">
-            {" "}
-            <h5>
-              <BiUserPlus /> Register
-            </h5>
-          </div>
+          <Link id="menu-two">
+            <div className="retlog">
+              {" "}
+              <h5>
+                <FiLogIn /> Login
+              </h5>
+            </div>
+          </Link>
+          <Link id="menu-two">
+            <div className="retreg">
+              {" "}
+              <h5>
+                <BiUserPlus /> Register
+              </h5>
+            </div>
+          </Link>
         </div>
         <div className="grow-container">
           <div className="save">

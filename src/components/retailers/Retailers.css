@@ -185,6 +185,10 @@ p {
   text-align: center;
   margin: 1rem;
 }
+.retlog h5,
+.retreg h5 {
+  color: #000000;
+}
 .retreg {
   background: #458c47;
   width: 10rem;
